@@ -1,0 +1,1 @@
+import {lex} from "./lexer";export function parse(source:string){return{tokens:lex(source),source}}
