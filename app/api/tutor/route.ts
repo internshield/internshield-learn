@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server";export async function POST(req:Request){const b=await req.json().catch(()=>({}));if(!String(b.question||"").trim())return NextResponse.json({error:"question is required"},{status:400});return NextResponse.json({answer:"AI Tutor adapter ready. Configure an LLM server-side; keep code execution deterministic."})}
