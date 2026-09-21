@@ -1,0 +1,2 @@
+# Security
+Never execute arbitrary student shell commands on the web host. Tier A is simulated. Tier C must use isolated containers or microVMs with CPU, memory, timeout, filesystem, syscall and network controls.
