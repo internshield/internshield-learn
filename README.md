@@ -2,4 +2,4 @@
 
 Browser-based educational computer with Linux simulator and Proglearn runtime.
 
-See docs in the repository for setup and deployment.
+This repository contains the production Next.js app, safe Linux simulator, Proglearn runtime/virtual CPU, practice tasks, and documentation.
