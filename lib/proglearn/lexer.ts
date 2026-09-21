@@ -1,0 +1,1 @@
+export function lex(source:string){return source.match(/"[^"]*"|\d+(?:\.\d+)?|[A-Za-z_][A-Za-z0-9_]*|==|!=|>=|<=|[+\-*\/%><={}()\[\],;]/g)||[]}
