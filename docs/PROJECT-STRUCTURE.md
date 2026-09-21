@@ -1,0 +1,2 @@
+# Project Structure
+app = Next.js UI/API; components = UI; lib/linux = Linux simulator; lib/proglearn = language/runtime; lib/sandbox = real Linux adapter; public = static fallback; tests = automated checks.

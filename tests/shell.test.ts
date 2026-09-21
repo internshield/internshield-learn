@@ -1,0 +1,1 @@
+import test from "node:test";import assert from "node:assert/strict";import {createShell,runCommand} from "../lib/linux";test("sudo root",()=>{const r=runCommand(createShell(),"sudo -i");assert.equal(r.state.user,"root")});

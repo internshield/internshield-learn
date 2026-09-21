@@ -1,0 +1,6 @@
+export const tasks=[
+{id:"t01",title:"Print a message",level:"Beginner",topic:"Output",prompt:"Print Hello InternShield.",starter:'print "Hello InternShield"',expected:(r:any)=>r.output.trim()==="Hello InternShield",hints:["Use print."]},
+{id:"t02",title:"Add two numbers",level:"Beginner",topic:"Arithmetic",prompt:"Print 30.",starter:"let a = 10\nlet b = 20\nprint a + b",expected:(r:any)=>r.output.trim()==="30",hints:["Use let and +."]},
+{id:"t03",title:"Compare values",level:"Beginner",topic:"Relations",prompt:"Print true.",starter:"print 9 > 4",expected:(r:any)=>r.output.trim()==="true",hints:["Use >."]},
+{id:"t04",title:"Condition",level:"Beginner",topic:"Control flow",prompt:"Print adult when age is 18+.",starter:'let age = 20\nif age >= 18 {\n print "adult"\n}',expected:(r:any)=>r.output.trim()==="adult",hints:["Use if."]},
+{id:"t05",title:"Repeat",level:"Beginner",topic:"Loops",prompt:"Repeat a message three times.",starter:'repeat 3 {\n print "practice"\n}',expected:(r:any)=>r.output.trim().split("\n").length===3,hints:["Use repeat."]}];
