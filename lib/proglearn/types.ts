@@ -1,0 +1,1 @@
+export type Value=number|string|boolean|null|Value[];export type Trace={step:number;op:string;detail:string;registers:Record<string,number>;flags:Record<string,number>};export type ExecutionResult={output:string;trace:Trace[];error:string;registers:Record<string,number>;flags:Record<string,number>}
