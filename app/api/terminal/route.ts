@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server";import {createShell,runCommand} from "@/lib/linux";export async function POST(req:Request){const b=await req.json().catch(()=>({}));const r=runCommand(b.state||createShell(),String(b.input||"").slice(0,2000));return NextResponse.json(r)}
