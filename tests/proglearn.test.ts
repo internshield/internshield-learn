@@ -1,0 +1,1 @@
+import test from "node:test";import assert from "node:assert/strict";import {runProglearn} from "../lib/proglearn";test("addition",()=>assert.equal(runProglearn("let a = 10\nlet b = 20\nprint a + b").output,"30"));
