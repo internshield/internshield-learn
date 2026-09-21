@@ -1,0 +1,1 @@
+import {runProglearn} from "./index";export class ProglearnVM{execute(source:string){return runProglearn(source)}}
